@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/gridLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:columnCount="2"
+            android:rowCount="3"
+            tools:context=".Activity_35">
+
+    <ImageButton
+            android:id="@+id/imageButtonCow"
+            android:background="@drawable/cow"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"/>
+
+    <ImageButton
+            android:id="@+id/imageButtonChicken"
+            android:background="@drawable/chicken"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"/>
+
+    <ImageButton
+            android:id="@+id/imageButtonCat"
+            android:background="@drawable/cat"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"/>
+
+    <ImageButton
+            android:id="@+id/imageButtonDuck"
+            android:background="@drawable/duck"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"/>
+
+    <ImageButton
+            android:id="@+id/imageButtonSheep"
+            android:background="@drawable/sheep"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"/>
+
+    <ImageButton
+            android:id="@+id/imageButtonDog"
+            android:background="@drawable/dog"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"/>
+
+</GridLayout>

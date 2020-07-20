@@ -1,0 +1,228 @@
+<resources>
+    <string name="app_name">Data of knowledge</string>
+    <string name="Main1">1. ContextMenu.</string>
+    <string name="Main2">2. Create and delete elements. (17)</string>
+    <string name="Main3">3. Change layoutParams. (18)</string>
+    <string name="Main4">4. Animation of elements. (20)</string>
+    <string name="Main5">5. Intent. Extras. (28,29,30)</string>
+    <string name="Main6">6. Intent. Activity. (31,32)</string>
+    <string name="Main7">7. SharedPreferences. Save and load. (33)</string>
+    <string name="Main8">8. SQL. (34,35,36,37,38,39)</string>
+    <string name="Main9">9. LayoutInflater. (40,41)</string>
+    <string name="Main10">10. ArrayAdapter. ListView. (42,43,44)</string>
+    <string name="Main11">11. SimpleExpandableListAdapter. ExpandableListView. (45,46)</string>
+    <string name="Main12">12. SimpleAdapter. ListView. (48,49,50,51)</string>
+    <string name="Main13">13. SimpleCursorAdapter. (52)</string>
+    <string name="Main14">14. SimpleCursorTreeAdapter. ExpandableListView. (53)</string>
+    <string name="Main15">15. Header and Footer. (55)</string>
+    <string name="Main16">16. Spinner. (56)</string>
+    <string name="Main17">17. GridView. (57)</string>
+    <string name="Main18">18. Dialogs. (58, 59, 60, 61)</string>
+    <string name="Main19">19. Dialogs. (62,63,64)</string>
+    <string name="Main20">20. Dialogs. (65,66,67)</string>
+    <string name="Main21">21. Parcelable objects. (68,69)</string>
+    <string name="Main22">22. Save and load instances in activity. (70)</string>
+    <string name="Main23">23. PreferenceActivity. (71,72,73,74)</string>
+    <string name="Main24">24. Save and load from file. (75)</string>
+    <string name="Main25">25. Tab. (76,77,78)</string>
+    <string name="Main26">26. XmlPullParser. (79)</string>
+    <string name="Main27">27. Handler. (80,81,82,83,84,85)</string>
+    <string name="Main28">28. AsyncTask. (86,87,88,89,90,91)</string>
+    <string name="Main29">29. Service. PendingIntent. (92,93,94,95)</string>
+    <string name="Main30">30. Service. BroadcastReceiver. (96)</string>
+    <string name="Main31">31. Service. BroadcastReceiver. (97,98)</string>
+    <string name="Act1_TextView">Hold image or text.</string>
+    <string name="Act1_textView">TEXT</string>
+    <string name="Act2_rbLeft">left</string>
+    <string name="Act2_rbCenter">center</string>
+    <string name="Act2_rbRight">right</string>
+    <string name="Act2_btnCreate">create</string>
+    <string name="Act2_btnClear">clear</string>
+    <string name="Act3_button1">50</string>
+    <string name="Act3_button2">50</string>
+    <string name="Act4_button1">alpha</string>
+    <string name="Act4_button2">scale</string>
+    <string name="Act4_button3">trans</string>
+    <string name="Act4_button4">rotate</string>
+    <string name="Act4_button5">combo</string>
+    <string name="Act5_button1">Send</string>
+    <string name="Act5_button2">Request</string>
+    <string name="Act5a_button1">You get!</string>
+    <string name="Act5a_button2">Answer</string>
+    <string name="Act6_buttonWEB">GO WEB</string>
+    <string name="Act6_TextView1">Write URI. Default page is https://yandex.ru/</string>
+    <string name="Act6_buttonMAP">GO MAP</string>
+    <string name="Act6_TextView2">Write coordinates. Default coordinates is 55.787847,37.939277</string>
+    <string name="Act6_buttonCALL">GO CALL</string>
+    <string name="Act6_TextView3">Write number. Default number is +79258259600.</string>
+    <string name="Act7_buttonLoad">Save</string>
+    <string name="Act7_buttonSave">LOAD</string>
+    <string name="Act8_button1">Add</string>
+    <string name="Act8_button2">Delete</string>
+    <string name="Act8_button3">update</string>
+    <string name="Act8_button4">Clear Table</string>
+    <string name="Act8_button5">Fill Table</string>
+    <string name="Act8_rSortId">Id</string>
+    <string name="Act8_rSortName">Name</string>
+    <string name="Act8_rSortSalary">Salary</string>
+    <string name="Act8_rSortPosition">Position</string>
+    <string name="Act8_rGroupId">Id</string>
+    <string name="Act8_rGroupName">Name</string>
+    <string name="Act8_rGroupPosition">Position</string>
+    <string name="Act8_rGroupSalary">Salary</string>
+    <string name="Act8_TextView1">Table 1 (People)</string>
+    <string name="Act8_TextView2">ID</string>
+    <string name="Act8_TextView3">NAME</string>
+    <string name="Act8_TextView4">POS_ID</string>
+    <string name="Act8_TextView5">Work with Table 1</string>
+    <string name="Act8_TextView6">ID</string>
+    <string name="Act8_TextView7">NAME</string>
+    <string name="Act8_TextView8">POS_ID</string>
+    <string name="Act8_TextView9">Table 2 (Position)</string>
+    <string name="Act8_TextView10">POS_ID</string>
+    <string name="Act8_TextView11">POSITION</string>
+    <string name="Act8_TextView12">SALARY</string>
+    <string name="Act8_TextView13">Table 3 (left outer join People + Position)</string>
+    <string name="Act8_TextView14">ID</string>
+    <string name="Act8_TextView15">NAME</string>
+    <string name="Act8_TextView16">POSITION</string>
+    <string name="Act8_TextView17">SALARY</string>
+    <string name="Act8_TextView18">COUNT</string>
+    <string name="Act8_TextView19">Work with Table 3</string>
+    <string name="Act8_TextView20">SORT</string>
+    <string name="Act8_TextView21"><![CDATA[SALARY >]]></string>
+    <string name="Act8_TextView22">0</string>
+    <string name="Act8_TextView23">GROUP</string>
+    <string name="Act10_textView1">new AdapterView.OnItemClickListener()</string>
+    <string name="Act10_textView2">new AbsListView.OnScrollListener()</string>
+    <string name="todo">TODO</string>
+    <string name="Act12_add_random">Add Random</string>
+    <string name="Act13_add_record">add_record</string>
+    <string name="Act15_test">test</string>
+    <string name="Act15_footer_footer_title">footer_title</string>
+    <string name="Act15_header_header_title">header_title</string>
+    <string name="Act18_set_time">SET TIME</string>
+    <string name="Act18_set_date">SET DATE</string>
+    <string name="Act18_exit">EXIT</string>
+    <string name="Act18_show_current_time">SHOW CURRENT TIME</string>
+    <string name="Act19_list1">Список</string>
+    <string name="Act19_items">items</string>
+    <string name="Act19_adapter">adapter</string>
+    <string name="Act19_cursor">cursor</string>
+    <string name="Act19_list2">Список с одиночным выбором</string>
+    <string name="Act19_list3">Список с множественным выбором</string>
+    <string name="Act20_text1">Кастомизация.</string>
+    <string name="Act20_text2">Обработчики и операции.</string>
+    <string name="Act20_text3">ProgressDialog.</string>
+    <string name="Act20_add">ADD</string>
+    <string name="Act20_delete">DELETE</string>
+    <string name="Act20_dialog">Dialog</string>
+    <string name="Act20_default">Default</string>
+    <string name="Act20_horizontal">Horizontal</string>
+    <string name="Act20_dialog_time">TIME</string>
+    <string name="Act20_dialog_count">COUNT</string>
+    <string name="Act21_main_activity">Main Activity</string>
+    <string name="Act21_send_object">SEND OBJECT</string>
+    <string name="Act21_object_parameters">Input object parameters</string>
+    <string name="Act21_string">String</string>
+    <string name="Act21_integer">Integer</string>
+    <string name="Act21a_second_activity">Second Activity</string>
+    <string name="Act21a_you_get_object">You get object!</string>
+    <string name="Act22_count">Count</string>
+    <string name="Act22_with_id">With ID</string>
+    <string name="Act22_without_id">Without ID</string>
+    <string name="Act22_turn_the_activity">Turn the activity</string>
+    <string name="Act24_write_file">write_file</string>
+    <string name="Act24_read_file">read_file</string>
+    <string name="Act24_write_file_sd">write_file_sd</string>
+    <string name="Act24_read_file_sd">read_file_sd</string>
+    <string name="Act25_tab_2">TAB 2</string>
+    <string name="Act25_textTab1">Обычная вкладка</string>
+    <string name="Act25_textTab2">Вкладка с использованием заголовка из View</string>
+    <string name="Act27_test">Test</string>
+    <string name="Act2_run_task">Run task</string>
+    <string name="Act28_cancel_task">Cancel task</string>
+    <string name="Act28_get">get()</string>
+    <string name="Act28_get_1_timeunit_seconds">get(1, TimeUnit.SECONDS)</string>
+    <string name="Act28_create_task">Create_task</string>
+    <string name="Act28_get_status">Get status</string>
+    <string name="Act29_start_service">start service</string>
+    <string name="Act29_stop_service">stop service</string>
+    <string name="Act31_start_bind">start_bind</string>
+    <string name="Act31_stop_bind">stop_bind</string>
+    <string name="Act31_start_bind_task">Start Bind Task</string>
+    <string name="Main32">32. Touch. MultiTouch. (102,103)</string>
+    <string name="Act33_add">add</string>
+    <string name="Act33_remove">remove</string>
+    <string name="Act33_replace">replace</string>
+    <string name="Act33_stack">stack</string>
+    <string name="Act33_send_to_frag_1">Send to frag 1</string>
+    <string name="Act33_send_to_frag_2">Send to frag 2</string>
+    <string name="Act33_fr_fragment_1">FRAGMENT 1</string>
+    <string name="Act33_fr_send_to_activity">Send to Activity</string>
+    <string name="Act33_fr_fragment_2">FRAGMENT 2</string>
+    <string name="Main33">33. Fragments. (104,105,106)</string>
+    <string name="Act34_info">info</string>
+    <string name="Act34_forward">forward</string>
+    <string name="Act34_backward">backward</string>
+    <string name="Act34_loop">loop</string>
+    <string name="Act34_stop">stop</string>
+    <string name="Act34_resume">resume</string>
+    <string name="Act34_pause">pause</string>
+    <string name="Act34_raw">raw</string>
+    <string name="Act34_uri">uri</string>
+    <string name="Act34_sd">sd</string>
+    <string name="Act34_http">http</string>
+    <string name="Act34_stream">stream</string>
+    <string name="Main34">34. MediaPlayer. (126)</string>
+    <string name="Main35">35. Sounds.</string>
+    <string name="Act36_photo">photo</string>
+    <string name="Act36_video">video</string>
+    <string name="Main36">36 Photo. Intent camera.</string>
+    <string name="Main37">37. SensorManager.</string>
+    <string name="Main38">38. Accelerometer.</string>
+
+    <string-array name="Act10_names">
+        <item>Иван</item>
+        <item>Дарья</item>
+        <item>Пётр</item>
+        <item>Дмитрий</item>
+        <item>Колизей</item>
+        <item>Феофан</item>
+        <item>Коронарий</item>
+        <item>Георгий</item>
+        <item>Василий</item>
+        <item>Кремний</item>
+        <item>Иван</item>
+        <item>Дарья</item>
+        <item>Пётр</item>
+        <item>Дмитрий</item>
+        <item>Колизей</item>
+        <item>Феофан</item>
+        <item>Коронарий</item>
+        <item>Георгий</item>
+        <item>Василий</item>
+        <item>Кремний</item>
+        <item>Иван</item>
+        <item>Дарья</item>
+        <item>Пётр</item>
+        <item>Дмитрий</item>
+        <item>Колизей</item>
+        <item>Феофан</item>
+        <item>Коронарий</item>
+        <item>Георгий</item>
+        <item>Василий</item>
+        <item>Кремний</item>
+    </string-array>
+    <string-array name="Act23_pref_entries">
+        <item>one</item>
+        <item>two</item>
+        <item>three</item>
+    </string-array>
+    <string-array name="Act23_pref_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+</resources>

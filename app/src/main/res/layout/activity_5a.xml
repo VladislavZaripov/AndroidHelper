@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Activity_5a"
+        android:orientation="vertical"
+        android:background="#F44336">
+
+    <TableRow android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_marginTop="200dp">
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Act5a_textView"
+                android:layout_weight="3"
+                android:background="#76DAD0"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+        <Button
+                android:text="@string/Act5a_button1"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/Act5a_button1"
+                android:gravity="center"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"/>
+    </TableRow>
+    <TableRow android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_marginTop="100dp">
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:id="@+id/Act5a_editText"
+                android:layout_weight="3"
+                android:background="#76DAD0"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:autofillHints="no"
+                tools:ignore="LabelFor"/>
+        <Button
+                android:text="@string/Act5a_button2"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/Act5a_button2"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"/>
+    </TableRow>
+</TableLayout>

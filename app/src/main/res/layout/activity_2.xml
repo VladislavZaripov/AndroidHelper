@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Activity_2"
+        android:orientation="vertical"
+        android:background="#76E0ED">
+
+    <RadioGroup
+            android:id="@+id/Act2_rg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" android:layout_marginTop="20dp">
+        <RadioButton
+                android:id="@+id/Act2_rbLeft"
+                android:text="@string/Act2_rbLeft"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@android:drawable/btn_radio"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"/>
+        <RadioButton
+                android:id="@+id/Act2_rbCenter"
+                android:text="@string/Act2_rbCenter"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@android:drawable/btn_radio"/>
+        <RadioButton
+                android:id="@+id/Act2_rbRight"
+                android:text="@string/Act2_rbRight"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@android:drawable/btn_radio"/>
+    </RadioGroup>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <EditText
+                android:id="@+id/Act2_etName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fadeScrollbars="true"
+                android:importantForAutofill="no"
+                android:inputType="textMultiLine"
+                tools:ignore="LabelFor"/>
+        <Button
+                android:id="@+id/Act2_btnCreate"
+                android:text="@string/Act2_btnCreate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        <Button
+                android:id="@+id/Act2_btnClear"
+                android:text="@string/Act2_btnClear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/Act2_llMain"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp">
+    </LinearLayout>
+
+</LinearLayout>
